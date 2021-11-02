@@ -57,7 +57,6 @@ Contoh sederhana kode html yang di simpan dalam file template
 Html:
 
 ```
-<code>
 	<!DOCTYPE html>
 <html lang="en">
     <head>
@@ -81,10 +80,11 @@ Html:
 		{_footer}
 	</body>
 </html>
-</code>
 
 ```
 #NB-
+
+
  -Ini hanyalah sebagian dari yang sederhana dalam teknik templating pada php
  -Kurangnya dan lebihnya silahkan di koreksi dan di tambahkan 
  
