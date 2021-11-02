@@ -13,7 +13,7 @@ Related projects:
 Kita akan membuat sedikit function menggunakan php.
 
 Berikut script sederhana untuk functionya:
-
+<code>
    function template_parse($dirtpl,$params) {
 	
 	$templateFile = $params["templateFile"];
@@ -34,7 +34,7 @@ Berikut script sederhana untuk functionya:
 	}
 	return $output;
 	}
-
+</code>
 Beberapa fungsi di terapkan untuk memanggil file template untuk proses memparse dan menampilkan objek.
 
 ### Template
@@ -46,7 +46,7 @@ Contoh sederhana kode html yang di simpan dalam file template
 <code>/template/index.ollabs</code>
 
 	contoh html kode pada file file <em>index.ollabs</em>
-	
+	<code>
 	<!DOCTYPE html>
 <html lang="en">
     <head>
@@ -70,7 +70,7 @@ Contoh sederhana kode html yang di simpan dalam file template
 		{_footer}
 	</body>
 </html>
-
+</code>
 
 #NB-
  -Ini hanyalah sebagian dari yang sederhana dalam teknik templating pada php
