@@ -13,7 +13,7 @@ Related projects:
 Kita akan membuat sedikit function menggunakan php.
 
 Berikut script sederhana untuk functionya:
-<code>
+{
    function template_parse($dirtpl,$params) {
 	
 	$templateFile = $params["templateFile"];
@@ -34,7 +34,8 @@ Berikut script sederhana untuk functionya:
 	}
 	return $output;
 	}
-</code>
+
+}
 Beberapa fungsi di terapkan untuk memanggil file template untuk proses memparse dan menampilkan objek.
 
 ### Template
